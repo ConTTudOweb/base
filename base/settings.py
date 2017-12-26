@@ -76,7 +76,7 @@ APPS += (
 # Project Apps
 APPS += (
     'base.authentication',
-    # 'base.core.apps.CoreConfig',
+    'base.accounting',
 
     # 'base.frontend',
 )
