@@ -1,0 +1,26 @@
+[
+  {
+    "model": "accounting.bank",
+    "pk": 1,
+    "fields": {
+      "code": "341",
+      "description": "Itaú Unibanco S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 2,
+    "fields": {
+      "code": "104",
+      "description": "Caixa Econômica Federal"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 3,
+    "fields": {
+      "code": "237",
+      "description": "Banco Bradesco S.A."
+    }
+  }
+]

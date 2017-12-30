@@ -17,9 +17,20 @@ from django.contrib import admin
 from django.conf.urls.static import static
 from django.urls import path, include
 from django.conf import settings
+from rest_framework import routers
+
+from base.accounting.views import BankViewSet
+
+
+# Routers provide an easy way of automatically determining the URL conf.
+router = routers.DefaultRouter()
+router.register(r'banks', BankViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    path(r'api/', include(router.urls)),
+    path(r'api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

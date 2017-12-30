@@ -1,0 +1,12 @@
+[
+  {
+    "model": "authentication.user",
+    "pk": 1,
+    "fields": {
+      "email": "admin@admin.com",
+      "password": "adminadmin",
+      "is_staff": "True",
+      "is_superuser": "True"
+    }
+  }
+]

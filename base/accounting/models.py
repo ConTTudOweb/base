@@ -18,7 +18,7 @@ class Category(models.Model):
 
 
 class Bank(models.Model):
-    code = models.CharField(max_length=5)
+    code = models.CharField(max_length=5, unique=True)
     description = models.CharField(max_length=255)
 
     def __str__(self):
