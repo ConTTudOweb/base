@@ -72,10 +72,12 @@ APPS += (
     'django_extensions',
     'debug_toolbar',
     'rest_framework',
+    'django_filters',
 )
 
 # Project Apps
 APPS += (
+    'base.common',
     'base.authentication',
     'base.accounting',
 
@@ -174,7 +176,14 @@ REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
-        # 'rest_framework.permissions.AllowAny'
-    ]
+        # 'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+        'rest_framework.permissions.AllowAny'
+    ],
+
+    'DEFAULT_FILTER_BACKENDS': (
+        'django_filters.rest_framework.DjangoFilterBackend',
+        'rest_framework.filters.OrderingFilter',
+    ),
+
+    'ORDERING_PARAM': '_sort',
 }

@@ -4,6 +4,7 @@ from django.urls import reverse
 from rest_framework.test import APITestCase, APIRequestFactory
 from rest_framework import status
 
+from base.accounting.filters import BankFilter
 from base.accounting.models import Bank
 from base.authentication.models import User
 from base.urls import BankViewSet
@@ -50,6 +51,33 @@ class AccountTests(APITestCase):
         url = reverse('bank-list')
         response = self.client.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_filter_list_api(self):
+        bank = Bank.objects.first()
+        _code__contains = '4'
+        _description__contains = 'i'
+        expected_count_code = Bank.objects.filter(code__contains=_code__contains).count()
+        expected_count_description = Bank.objects.filter(description__contains=_description__contains).count()
+
+        # Test "code" contains unique result
+        get = {'code__contains': bank.code}
+        f = BankFilter(get, queryset=Bank.objects.all())
+        self.assertEqual(len(list(f.qs)), 1)
+
+        # Test "code" contains multiple result
+        get = {'code__contains': _code__contains}
+        f = BankFilter(get, queryset=Bank.objects.all())
+        self.assertEqual(len(list(f.qs)), expected_count_code)
+
+        # Test "description" contains unique result
+        get = {'description__contains': bank.description}
+        f = BankFilter(get, queryset=Bank.objects.all())
+        self.assertEqual(len(list(f.qs)), 1)
+
+        # Test "description" contains multiple result
+        get = {'description__contains': _description__contains}
+        f = BankFilter(get, queryset=Bank.objects.all())
+        self.assertEqual(len(list(f.qs)), expected_count_description)
 
     def test_get_api(self):
         bank = Bank.objects.first()
