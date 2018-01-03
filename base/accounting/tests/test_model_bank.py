@@ -13,7 +13,7 @@ _description = 'Bank 1'
 
 
 def get_fields_bank():
-    _code = '001'
+    _code = 'XXX'
     return {
         'code': _code,
         'description': _description
