@@ -72,7 +72,10 @@ APPS += (
     'django_extensions',
     'debug_toolbar',
     'rest_framework',
+    'rest_auth',
     'django_filters',
+    'rest_framework.authtoken',
+    'corsheaders',
 )
 
 # Project Apps
@@ -87,6 +90,8 @@ APPS += (
 INSTALLED_APPS = APPS
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -173,11 +178,18 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Django Rest Framework
 
 REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    ),
+
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
-        # 'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
-        'rest_framework.permissions.AllowAny'
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
+        # 'rest_framework.permissions.IsAuthenticated',
+        # 'rest_framework.permissions.AllowAny',
     ],
 
     'DEFAULT_FILTER_BACKENDS': (
@@ -187,3 +199,7 @@ REST_FRAMEWORK = {
 
     'ORDERING_PARAM': '_sort',
 }
+
+
+# Cors Headers
+CORS_ORIGIN_ALLOW_ALL = True

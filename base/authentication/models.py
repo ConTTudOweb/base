@@ -44,6 +44,23 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
 
+    # username = models.CharField(
+    #     _('username'),
+    #     max_length=150,
+    #     unique=True,
+    #     help_text=_('Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.'),
+    #     validators=[username_validator],
+    #     error_messages={
+    #         'unique': _("A user with that username already exists."),
+    #     },
+    # )
+    first_name = models.CharField('first name', max_length=30, blank=True)
+    last_name = models.CharField('last name', max_length=150, blank=True)
+
+    @property
+    def username(self):
+        return self.email
+
     objects = UserManager()
 
     USERNAME_FIELD = 'email'

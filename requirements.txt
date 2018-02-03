@@ -12,5 +12,7 @@ static3==0.7.0
 typing==3.6.2
 codeclimate-test-reporter==0.2.3
 djangorestframework==3.7.7
+django-rest-auth==0.9.3
 markdown==2.6.10
 django-filter==1.1.0
+django-cors-headers==2.1.0
