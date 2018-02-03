@@ -3,13 +3,1131 @@
     "model": "accounting.bank",
     "pk": 1,
     "fields": {
-      "code": "341",
-      "description": "Itaú Unibanco S.A."
+      "code": "654",
+      "description": "Banco A.J.Renner S.A."
     }
   },
   {
     "model": "accounting.bank",
     "pk": 2,
+    "fields": {
+      "code": "246",
+      "description": "Banco ABC Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 3,
+    "fields": {
+      "code": "025",
+      "description": "Banco Alfa S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 4,
+    "fields": {
+      "code": "641",
+      "description": "Banco Alvorada S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 5,
+    "fields": {
+      "code": "213",
+      "description": "Banco Arbi S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 6,
+    "fields": {
+      "code": "019",
+      "description": "Banco Azteca do Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 7,
+    "fields": {
+      "code": "029",
+      "description": "Banco Banerj S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 8,
+    "fields": {
+      "code": "000",
+      "description": "Banco Bankpar S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 9,
+    "fields": {
+      "code": "740",
+      "description": "Banco Barclays S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 10,
+    "fields": {
+      "code": "107",
+      "description": "Banco BBM S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 11,
+    "fields": {
+      "code": "031",
+      "description": "Banco Beg S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 12,
+    "fields": {
+      "code": "739",
+      "description": "Banco BGN S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 13,
+    "fields": {
+      "code": "096",
+      "description": "Banco BM&F de Serviços de Liquidação e Custódia S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 14,
+    "fields": {
+      "code": "318",
+      "description": "Banco BMG S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 15,
+    "fields": {
+      "code": "752",
+      "description": "Banco BNP Paribas Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 16,
+    "fields": {
+      "code": "248",
+      "description": "Banco Boavista Interatlântico S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 17,
+    "fields": {
+      "code": "218",
+      "description": "Banco Bonsucesso S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 18,
+    "fields": {
+      "code": "065",
+      "description": "Banco Bracce S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 19,
+    "fields": {
+      "code": "036",
+      "description": "Banco Bradesco BBI S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 20,
+    "fields": {
+      "code": "204",
+      "description": "Banco Bradesco Cartões S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 21,
+    "fields": {
+      "code": "394",
+      "description": "Banco Bradesco Financiamentos S.A."
+    }
+  },
+    {
+    "model": "accounting.bank",
+    "pk": 22,
+    "fields": {
+      "code": "237",
+      "description": "Banco Bradesco S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 23,
+    "fields": {
+      "code": "225",
+      "description": "Banco Brascan S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 24,
+    "fields": {
+      "code": "M15",
+      "description": "Banco BRJ S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 25,
+    "fields": {
+      "code": "208",
+      "description": "Banco BTG Pactual S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 26,
+    "fields": {
+      "code": "044",
+      "description": "Banco BVA S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 27,
+    "fields": {
+      "code": "263",
+      "description": "Banco Cacique S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 28,
+    "fields": {
+      "code": "473",
+      "description": "Banco Caixa Geral - Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 29,
+    "fields": {
+      "code": "412",
+      "description": "Banco Capital S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 30,
+    "fields": {
+      "code": "040",
+      "description": "Banco Cargill S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 31,
+    "fields": {
+      "code": "745",
+      "description": "Banco Citibank S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 32,
+    "fields": {
+      "code": "M08",
+      "description": "Banco Citicard S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 33,
+    "fields": {
+      "code": "241",
+      "description": "Banco Clássico S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 34,
+    "fields": {
+      "code": "M19",
+      "description": "Banco CNH Capital S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 35,
+    "fields": {
+      "code": "215",
+      "description": "Banco Comercial e de Investimento Sudameris S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 36,
+    "fields": {
+      "code": "756",
+      "description": "Banco Cooperativo do Brasil S.A. - BANCOOB"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 37,
+    "fields": {
+      "code": "748",
+      "description": "Banco Cooperativo Sicredi S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 38,
+    "fields": {
+      "code": "075",
+      "description": "Banco CR2 S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 39,
+    "fields": {
+      "code": "721",
+      "description": "Banco Credibel S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 40,
+    "fields": {
+      "code": "222",
+      "description": "Banco Credit Agricole Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 41,
+    "fields": {
+      "code": "505",
+      "description": "Banco Credit Suisse (Brasil) S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 42,
+    "fields": {
+      "code": "229",
+      "description": "Banco Cruzeiro do Sul S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 43,
+    "fields": {
+      "code": "266",
+      "description": "Banco Cédula S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 44,
+    "fields": {
+      "code": "003",
+      "description": "Banco da Amazônia S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 45,
+    "fields": {
+      "code": "083-3",
+      "description": "Banco da China Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 46,
+    "fields": {
+      "code": "M21",
+      "description": "Banco Daimlerchrysler S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 47,
+    "fields": {
+      "code": "707",
+      "description": "Banco Daycoval S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 48,
+    "fields": {
+      "code": "300",
+      "description": "Banco de La Nacion Argentina"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 49,
+    "fields": {
+      "code": "495",
+      "description": "Banco de La Provincia de Buenos Aires"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 50,
+    "fields": {
+      "code": "494",
+      "description": "Banco de La Republica Oriental del Uruguay"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 51,
+    "fields": {
+      "code": "M06",
+      "description": "Banco de Lage Landen Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 52,
+    "fields": {
+      "code": "024",
+      "description": "Banco de Pernambuco S.A. - BANDEPE"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 53,
+    "fields": {
+      "code": "456",
+      "description": "Banco de Tokyo-Mitsubishi UFJ Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 54,
+    "fields": {
+      "code": "214",
+      "description": "Banco Dibens S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 55,
+    "fields": {
+      "code": "001",
+      "description": "Banco do Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 56,
+    "fields": {
+      "code": "047",
+      "description": "Banco do Estado de Sergipe S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 57,
+    "fields": {
+      "code": "037",
+      "description": "Banco do Estado do Pará S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 58,
+    "fields": {
+      "code": "039",
+      "description": "Banco do Estado do Piauí S.A. - BEP"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 59,
+    "fields": {
+      "code": "041",
+      "description": "Banco do Estado do Rio Grande do Sul S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 60,
+    "fields": {
+      "code": "004",
+      "description": "Banco do Nordeste do Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 61,
+    "fields": {
+      "code": "265",
+      "description": "Banco Fator S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 62,
+    "fields": {
+      "code": "M03",
+      "description": "Banco Fiat S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 63,
+    "fields": {
+      "code": "224",
+      "description": "Banco Fibra S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 64,
+    "fields": {
+      "code": "626",
+      "description": "Banco Ficsa S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 65,
+    "fields": {
+      "code": "M18",
+      "description": "Banco Ford S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 66,
+    "fields": {
+      "code": "233",
+      "description": "Banco GE Capital S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 67,
+    "fields": {
+      "code": "734",
+      "description": "Banco Gerdau S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 68,
+    "fields": {
+      "code": "M07",
+      "description": "Banco GMAC S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 69,
+    "fields": {
+      "code": "612",
+      "description": "Banco Guanabara S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 70,
+    "fields": {
+      "code": "M22",
+      "description": "Banco Honda S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 71,
+    "fields": {
+      "code": "063",
+      "description": "Banco Ibi S.A. Banco Múltiplo"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 72,
+    "fields": {
+      "code": "M11",
+      "description": "Banco IBM S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 73,
+    "fields": {
+      "code": "604",
+      "description": "Banco Industrial do Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 74,
+    "fields": {
+      "code": "320",
+      "description": "Banco Industrial e Comercial S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 75,
+    "fields": {
+      "code": "653",
+      "description": "Banco Indusval S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 76,
+    "fields": {
+      "code": "630",
+      "description": "Banco Intercap S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 77,
+    "fields": {
+      "code": "077-9",
+      "description": "Banco Intermedium S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 78,
+    "fields": {
+      "code": "249",
+      "description": "Banco Investcred Unibanco S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 79,
+    "fields": {
+      "code": "M09",
+      "description": "Banco Itaucred Financiamentos S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 80,
+    "fields": {
+      "code": "184",
+      "description": "Banco Itaú BBA S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 81,
+    "fields": {
+      "code": "479",
+      "description": "Banco ItaúBank S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 82,
+    "fields": {
+      "code": "376",
+      "description": "Banco J. P. Morgan S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 83,
+    "fields": {
+      "code": "074",
+      "description": "Banco J. Safra S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 84,
+    "fields": {
+      "code": "217",
+      "description": "Banco John Deere S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 85,
+    "fields": {
+      "code": "076",
+      "description": "Banco KDB S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 86,
+    "fields": {
+      "code": "757",
+      "description": "Banco KEB do Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 87,
+    "fields": {
+      "code": "600",
+      "description": "Banco Luso Brasileiro S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 88,
+    "fields": {
+      "code": "212",
+      "description": "Banco Matone S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 89,
+    "fields": {
+      "code": "M12",
+      "description": "Banco Maxinvest S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 90,
+    "fields": {
+      "code": "389",
+      "description": "Banco Mercantil do Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 91,
+    "fields": {
+      "code": "746",
+      "description": "Banco Modal S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 92,
+    "fields": {
+      "code": "M10",
+      "description": "Banco Moneo S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 93,
+    "fields": {
+      "code": "738",
+      "description": "Banco Morada S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 94,
+    "fields": {
+      "code": "066",
+      "description": "Banco Morgan Stanley S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 95,
+    "fields": {
+      "code": "243",
+      "description": "Banco Máxima S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 96,
+    "fields": {
+      "code": "045",
+      "description": "Banco Opportunity S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 97,
+    "fields": {
+      "code": "M17",
+      "description": "Banco Ourinvest S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 98,
+    "fields": {
+      "code": "623",
+      "description": "Banco Panamericano S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 99,
+    "fields": {
+      "code": "611",
+      "description": "Banco Paulista S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 100,
+    "fields": {
+      "code": "613",
+      "description": "Banco Pecúnia S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 101,
+    "fields": {
+      "code": "094-2",
+      "description": "Banco Petra S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 102,
+    "fields": {
+      "code": "643",
+      "description": "Banco Pine S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 103,
+    "fields": {
+      "code": "724",
+      "description": "Banco Porto Seguro S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 104,
+    "fields": {
+      "code": "735",
+      "description": "Banco Pottencial S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 105,
+    "fields": {
+      "code": "638",
+      "description": "Banco Prosper S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 106,
+    "fields": {
+      "code": "M24",
+      "description": "Banco PSA Finance Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 107,
+    "fields": {
+      "code": "747",
+      "description": "Banco Rabobank International Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 108,
+    "fields": {
+      "code": "088-4",
+      "description": "Banco Randon S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 109,
+    "fields": {
+      "code": "356",
+      "description": "Banco Real S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 110,
+    "fields": {
+      "code": "633",
+      "description": "Banco Rendimento S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 111,
+    "fields": {
+      "code": "741",
+      "description": "Banco Ribeirão Preto S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 112,
+    "fields": {
+      "code": "M16",
+      "description": "Banco Rodobens S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 113,
+    "fields": {
+      "code": "072",
+      "description": "Banco Rural Mais S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 114,
+    "fields": {
+      "code": "453",
+      "description": "Banco Rural S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 115,
+    "fields": {
+      "code": "422",
+      "description": "Banco Safra S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 116,
+    "fields": {
+      "code": "033",
+      "description": "Banco Santander (Brasil) S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 117,
+    "fields": {
+      "code": "250",
+      "description": "Banco Schahin S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 118,
+    "fields": {
+      "code": "743",
+      "description": "Banco Semear S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 119,
+    "fields": {
+      "code": "749",
+      "description": "Banco Simples S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 120,
+    "fields": {
+      "code": "366",
+      "description": "Banco Société Générale Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 121,
+    "fields": {
+      "code": "637",
+      "description": "Banco Sofisa S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 122,
+    "fields": {
+      "code": "012",
+      "description": "Banco Standard de Investimentos S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 123,
+    "fields": {
+      "code": "464",
+      "description": "Banco Sumitomo Mitsui Brasileiro S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 124,
+    "fields": {
+      "code": "082-5",
+      "description": "Banco Topázio S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 125,
+    "fields": {
+      "code": "M20",
+      "description": "Banco Toyota do Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 126,
+    "fields": {
+      "code": "M13",
+      "description": "Banco Tricury S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 127,
+    "fields": {
+      "code": "634",
+      "description": "Banco Triângulo S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 128,
+    "fields": {
+      "code": "M14",
+      "description": "Banco Volkswagen S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 129,
+    "fields": {
+      "code": "M23",
+      "description": "Banco Volvo (Brasil) S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 130,
+    "fields": {
+      "code": "655",
+      "description": "Banco Votorantim S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 131,
+    "fields": {
+      "code": "610",
+      "description": "Banco VR S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 132,
+    "fields": {
+      "code": "370",
+      "description": "Banco WestLB do Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 133,
+    "fields": {
+      "code": "021",
+      "description": "BANESTES S.A. Banco do Estado do Espírito Santo"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 134,
+    "fields": {
+      "code": "719",
+      "description": "Banif-Banco Internacional do Funchal (Brasil)S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 135,
+    "fields": {
+      "code": "755",
+      "description": "Bank of America Merrill Lynch Banco Múltiplo S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 136,
+    "fields": {
+      "code": "744",
+      "description": "BankBoston N.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 137,
+    "fields": {
+      "code": "073",
+      "description": "BB Banco Popular do Brasil S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 138,
+    "fields": {
+      "code": "078",
+      "description": "BES Investimento do Brasil S.A.-Banco de Investimento"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 139,
+    "fields": {
+      "code": "069",
+      "description": "BPN Brasil Banco Múltiplo S.A."
+    }
+  },{
+    "model": "accounting.bank",
+    "pk": 140,
+    "fields": {
+      "code": "070",
+      "description": "BRB - Banco de Brasília S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 141,
+    "fields": {
+      "code": "092-2",
+      "description": "Brickell S.A. Crédito, financiamento e Investimento"
+    }
+  },{
+    "model": "accounting.bank",
+    "pk": 142,
     "fields": {
       "code": "104",
       "description": "Caixa Econômica Federal"
@@ -17,10 +1135,226 @@
   },
   {
     "model": "accounting.bank",
-    "pk": 3,
+    "pk": 143,
     "fields": {
-      "code": "237",
-      "description": "Banco Bradesco S.A."
+      "code": "477",
+      "description": "Citibank N.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 144,
+    "fields": {
+      "code": "081-7",
+      "description": "Concórdia Banco S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 145,
+    "fields": {
+      "code": "097-3",
+      "description": "Cooperativa Central de Crédito Noroeste Brasileiro Ltda."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 146,
+    "fields": {
+      "code": "085-x",
+      "description": "Cooperativa Central de Crédito Urbano-CECRED"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 147,
+    "fields": {
+      "code": "099-x",
+      "description": "Cooperativa Central de Economia e Credito Mutuo das Unicreds"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 148,
+    "fields": {
+      "code": "090-2",
+      "description": "Cooperativa Central de Economia e Crédito Mutuo das Unicreds"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 149,
+    "fields": {
+      "code": "089-2",
+      "description": "Cooperativa de Crédito Rural da Região de Mogiana"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 150,
+    "fields": {
+      "code": "087-6",
+      "description": "Cooperativa Unicred Central Santa Catarina"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 151,
+    "fields": {
+      "code": "098-1",
+      "description": "Credicorol Cooperativa de Crédito Rural"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 152,
+    "fields": {
+      "code": "487",
+      "description": "Deutsche Bank S.A. - Banco Alemão"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 153,
+    "fields": {
+      "code": "751",
+      "description": "Dresdner Bank Brasil S.A. - Banco Múltiplo"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 154,
+    "fields": {
+      "code": "064",
+      "description": "Goldman Sachs do Brasil Banco Múltiplo S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 155,
+    "fields": {
+      "code": "062",
+      "description": "Hipercard Banco Múltiplo S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 156,
+    "fields": {
+      "code": "399",
+      "description": "HSBC Bank Brasil S.A. - Banco Múltiplo"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 157,
+    "fields": {
+      "code": "168",
+      "description": "HSBC Finance (Brasil) S.A. - Banco Múltiplo"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 158,
+    "fields": {
+      "code": "492",
+      "description": "ING Bank N.V."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 159,
+    "fields": {
+      "code": "652",
+      "description": "Itaú Unibanco Holding S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 160,
+    "fields": {
+      "code": "341",
+      "description": "Itaú Unibanco S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 161,
+    "fields": {
+      "code": "079",
+      "description": "JBS Banco S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 162,
+    "fields": {
+      "code": "488",
+      "description": "JPMorgan Chase Bank"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 163,
+    "fields": {
+      "code": "014",
+      "description": "Natixis Brasil S.A. Banco Múltiplo"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 164,
+    "fields": {
+      "code": "753",
+      "description": "NBC Bank Brasil S.A. - Banco Múltiplo"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 165,
+    "fields": {
+      "code": "086-8",
+      "description": "OBOE Crédito Financiamento e Investimento S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 166,
+    "fields": {
+      "code": "254",
+      "description": "Paraná Banco S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 167,
+    "fields": {
+      "code": "409",
+      "description": "UNIBANCO - União de Bancos Brasileiros S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 168,
+    "fields": {
+      "code": "230",
+      "description": "Unicard Banco Múltiplo S.A."
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 169,
+    "fields": {
+      "code": "091-4",
+      "description": "Unicred Central do Rio Grande do Sul"
+    }
+  },
+  {
+    "model": "accounting.bank",
+    "pk": 170,
+    "fields": {
+      "code": "084",
+      "description": "Unicred Norte do Paraná"
     }
   }
 ]
