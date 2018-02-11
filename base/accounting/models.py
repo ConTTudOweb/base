@@ -32,7 +32,9 @@ class DepositAccount(models.Model):
         money = 'mon'
         investment = 'inv'
 
-    entity = models.ForeignKey('Entity', on_delete=models.CASCADE)
+    # TODO: Futuramente poderá ser implementado!
+    # entity = models.ForeignKey('Entity', on_delete=models.CASCADE)
+
     type = models.CharField(max_length=3, choices=[
         (DepositAccountTypes.current_account.value, 'Current Account'),
         (DepositAccountTypes.money.value, 'Money'),

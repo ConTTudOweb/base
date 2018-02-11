@@ -1,4 +1,4 @@
-from base.accounting.models import Bank
+from base.accounting.models import *
 from base.common.filters import FilterSet
 
 
@@ -8,4 +8,12 @@ class BankFilter(FilterSet):
         fields = {
             'code': ['contains'],
             'description': ['contains'],
+        }
+
+
+class DepositAccountFilter(FilterSet):
+    class Meta:
+        model = DepositAccount
+        fields = {
+            'name': ['contains'],
         }

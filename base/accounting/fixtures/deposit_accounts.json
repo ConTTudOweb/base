@@ -1,0 +1,15 @@
+[
+  {
+    "model": "accounting.depositAccount",
+    "pk": 1,
+    "fields": {
+      "type": "cur",
+      "bank": "1",
+      "agency_number": "123",
+      "agency_digit": "0",
+      "account_number": "XX.XXX",
+      "account_digit": "X",
+      "name": "Agência de Teste"
+    }
+  }
+]

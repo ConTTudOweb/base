@@ -9,13 +9,16 @@ Base project for the main system.
 
 ## How to develop?
 
-1. Clone the repository;
-2. Create a "virtualenv" with Python 3.6;
-3. Activate the "virtualenv";
-4. Upgrade the "pip";
-5. Install the dependencies;
-6. Configure the instance with the ".env";
-7. Run the tests;
+01. Clone the repository;
+02. Create a "virtualenv" with Python 3.6;
+03. Activate the "virtualenv";
+04. Upgrade the "pip";
+05. Install the dependencies;
+06. Configure the instance with the ".env";
+07. Run the tests;
+08. Create DataBase;
+09. Load the fixtures;
+10. Create Super User;
 
 ```console
 git clone git@github.com:ConTTudOweb/base.git
@@ -26,4 +29,7 @@ pip install --upgrade pip
 pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
+python manage.py migrate
+python manage.py loaddata banks.json deposit_accounts.json
+python manage.py createsuperuser
 ```
